@@ -30,6 +30,11 @@ h6 {
     letter-spacing: 1px;
 }
 
+h5 {
+    margin: 0 0 15px;
+
+}
+
 p {
     margin: 0 0 25px;
     font-size: 20px;
@@ -38,9 +43,10 @@ p {
 
 /*desktop styles */
 @media(min-width:768px) {
+
     p {
         margin: 0 0 35px;
-        font-size: 16px;
+        font-size: 1em;
         line-height: 1.6;
     }
 }
@@ -174,6 +180,12 @@ a:focus {
     font-size: 18px;
 }
 
+.intro p {
+    background-color: white;
+    color: black;
+    padding: 25px;
+}
+
 
 /* desktop */
 @media(min-width:768px) {
@@ -273,6 +285,11 @@ a:focus {
     padding: 50px 0px;
 }
 
+.about-keywords {
+
+}
+
+
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -294,8 +311,28 @@ a:focus {
 
 /* desktop styles/width */
 @media(min-width:767px) {
+    .container-fluid {
+        max-width: 950px;
+    }
     .content-section {
         padding: 100px 0px;
+    }
+
+    .learning {
+        padding: 150px 0;
+    }
+
+    .about-keywords {
+        background-color: #DADADA;
+        color: #000;
+        padding: 50px 0px 15px;
+    }
+    .about-keywords h5{
+        margin: 0 0 15px;
+    }
+
+    .contact {
+        background-color: #DADADA;
     }
 
     .download-section {
@@ -355,17 +392,21 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+
+    padding: 20px 0;
     background-color: #000;
-    color: #FFF;
+
 }
 
 footer p {
-    margin: 0;
-    font-size: .8em;
+    margin: 0; 
+    color: #AFAFAF;
+    font-size: .7em;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1px;  
 }
+
+
 
 
 
