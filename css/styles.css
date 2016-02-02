@@ -51,6 +51,8 @@ p {
     }
 }
 
+
+/*mobile styles */
 a {
     color: #42dca3;
     -webkit-transition: all .2s ease-in-out;
@@ -74,11 +76,10 @@ a:focus {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
+
 }
 
-.navbar-custom .navbar-brand {
-    font-weight: 700;
-}
+
 
 .navbar-custom .navbar-brand:focus {
     outline: 0;
@@ -90,7 +91,7 @@ a:focus {
 
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
-    font-size: 16px;
+    font-size: .9em;
     color: #fff;
 }
 
@@ -100,7 +101,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-custom .nav li a {
@@ -133,17 +134,24 @@ a:focus {
     color: #fff;
 }
 
+/* mobile nav style */
 @media(min-width:768px) {
+
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
+        font-size: .9em;
+        color:#000;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
+    .navbar-custom .navbar-brand {
+        color:#fff;
+    }
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
